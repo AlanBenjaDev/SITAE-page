@@ -58,12 +58,12 @@ export const InstallationGuide = () => (
         <div className="bg-[#020617] rounded-[22px] p-12 text-center border border-white/5">
           <p className="text-slate-400 text-sm mb-6 font-mono uppercase tracking-[0.2em]">Punto de acceso detectado</p>
           <a 
-            href="http://sitae.local" 
+            href="http://timbre.local" 
             target="_blank" 
             className="inline-flex items-center gap-3 bg-[#10b981] text-[#020617] px-10 py-5 rounded-full font-black text-xs uppercase tracking-[0.2em] hover:bg-[#34d399] hover:shadow-[0_0_30px_rgba(16,185,129,0.4)] transition-all group"
           >
             <Icon icon="mdi:bell-ring" className="text-xl group-hover:animate-bounce" />
-            Ingresar a SITAE.LOCAL
+            Ingresar a TIMBRE.LOCAL
           </a>
         </div>
       </motion.div>
