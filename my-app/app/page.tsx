@@ -5,12 +5,14 @@ import { Fundamentals } from '@/components/Fundamentals';
 import { InstallationGuide } from '@/components/InstallationGuide';
 import { Footer } from '@/components/Footer';
 import DemoTimbre from '@/components/Demo';
+import { Connectivity } from '@/components/Connectivity';
 export default function Home() {
   return (
     <main className="bg-[#0a0a0a] min-h-screen">
      <Header />
      <Hero />
      <Fundamentals />
+     <Connectivity />
       <InstallationGuide />
     <Footer />
     </main>
